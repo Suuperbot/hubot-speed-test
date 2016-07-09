@@ -16,9 +16,15 @@
 // Author:
 //   latrokles
 
+const speedTest = require('speedtest-net');
+
 module.exports = function (robot) {
   robot.respond(/run speedtest/i, msg => {
-    msg.reply('results of the speedtest: ...');
+    // instantiate our speedtest
+    const test = speedTest({maxTime: 5000});
+    test.on('data', results => {
+      msg.reply(results);
+    });
   });
 };
 
