@@ -1,8 +1,6 @@
 # hubot-speed-test
 
-**notice this is still experimental**
-
-A hubot script to perform speedtests (of the machine/network hosting hubot)
+a hubot script to test connection speed 
 
 See [`src/speed-test.js`](src/speed-test.js) for full documentation.
 
