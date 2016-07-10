@@ -24,11 +24,12 @@ Then add **hubot-speed-test** to your `external-scripts.json`:
 
 ```
 user1>> hubot run speedtest
-hubot>> 
-{ download: 21.896,
-  upload: 10.825,
-  originalDownload: 2411478,
-  originalUpload: 1187940 }
+hubot>> running connection speedtest...
+hubot>> here are the speed test results:
+**speeds**
+----------
+DOWNLOAD: 47.738 Mbps
+UPLOAD:   9.042 Mbps
 ```
 
 ## NPM Module
