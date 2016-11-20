@@ -25,7 +25,7 @@
     "speedtest-net": "^1.2.6"
   },
   "devDependencies": {
-    "xo": "^0.16.0"
+    "xo": "^0.17.1"
   },
   "xo": {
     "space": 2,
